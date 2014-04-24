@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditTextPreference
+        android:key="oplayIP"
+        android:title="O!play IP address"
+        android:summary="touch to change O!play ip address"
+        android:defaultValue="" />
+    <ListPreference
+        android:title="O!play version"
+        android:summary="choose the version of O!play"
+        android:entries="@array/listentries"
+        android:entryValues="@array/listvalues"
+        />
+
+</PreferenceScreen>
